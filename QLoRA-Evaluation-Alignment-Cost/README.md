@@ -12,7 +12,7 @@ translate English into Yoda-speak. The task is a vehicle. The method is the poin
 
 ### 1. Fine-Tuning with QLoRA
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elaheJ/IT344-IllinoisStateUniversity-TechniquesAndToolsInAppliedMachineLearning/blob/main/QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-DanielGodoyYoda-Chapter0.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elaheJ/IT344-IllinoisStateUniversity-Techniques-and-Tools-in-Applied-Machine-Learning/blob/main/QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-DanielGodoyYoda-Chapter0.ipynb)
 [Notebook](notebooks/344-FA26-DanielGodoyYoda-Chapter0.ipynb)
 
 Load Phi-3 Mini in 4-bit NF4, attach LoRA adapters with `peft`, format the
@@ -28,7 +28,7 @@ Cells marked **Attention 344** are the additions made for this course.
 
 ### 2. Evaluation - Base vs. Prompted vs. Fine-Tuned
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elaheJ/IT344-IllinoisStateUniversity-TechniquesAndToolsInAppliedMachineLearning/blob/main/QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-QLoRA-Yoda-Evaluation.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elaheJ/IT344-IllinoisStateUniversity-Techniques-and-Tools-in-Applied-Machine-Learning/blob/main/QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-QLoRA-Yoda-Evaluation.ipynb)
 [Notebook](notebooks/344-FA26-QLoRA-Yoda-Evaluation.ipynb)
 
 Three conditions on the same 20 held-out sentences:
@@ -49,7 +49,7 @@ written analysis.
 
 ### 3. The Alignment Tax
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elaheJ/IT344-IllinoisStateUniversity-TechniquesAndToolsInAppliedMachineLearning/blob/main/QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-AlignmentTax-QLoRA-Yoda.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elaheJ/IT344-IllinoisStateUniversity-Techniques-and-Tools-in-Applied-Machine-Learning/blob/main/QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-AlignmentTax-QLoRA-Yoda.ipynb)
 [Notebook](notebooks/344-FA26-AlignmentTax-QLoRA-Yoda.ipynb)
 
 The question the style metrics cannot ask: did the adapter make the model worse at
