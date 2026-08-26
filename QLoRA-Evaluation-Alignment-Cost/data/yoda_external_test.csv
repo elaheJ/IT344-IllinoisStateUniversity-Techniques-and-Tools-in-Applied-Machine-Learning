@@ -1,0 +1,21 @@
+id,sentence,translation_extra,category
+1,"The professor uploaded the lecture slides before lunch.","Before lunch, the lecture slides the professor uploaded.",declarative
+2,"Our robotics team finished the prototype last night.","Last night, the prototype our robotics team finished.",declarative
+3,"The campus bus arrived just before the rain began.","Just before the rain began, the campus bus arrived.",declarative
+4,"My roommate left the apartment key on the kitchen counter.","On the kitchen counter, the apartment key my roommate left.",declarative
+5,"The astronomy club will watch the meteor shower tonight.","Tonight, the meteor shower the astronomy club will watch.",future
+6,"The new software detected three errors in my program.","Three errors in my program, the new software detected.",declarative
+7,"The study group did not finish the final chapter.","Finish the final chapter, the study group did not.",negative
+8,"I cannot remember the password for the laboratory computer.","Remember the password for the laboratory computer, I cannot.",negative
+9,"You should charge your laptop before the examination.","Before the examination, charge your laptop, you should.",advice
+10,"We must reserve a room for tomorrow's meeting.","A room for tomorrow's meeting, reserve we must.",obligation
+11,"Save your work before closing the browser.","Before closing the browser, save your work, you must.",imperative
+12,"Check the course website for the revised schedule.","For the revised schedule, check the course website, you must.",imperative
+13,"Bring your student identification card to the testing center.","To the testing center, your student identification card bring, you must.",imperative
+14,"Do not share your account password with anyone.","Your account password with anyone, share you must not.",negative_imperative
+15,"Can I submit the assignment after midnight?","After midnight, submit the assignment, can I?",question
+16,"Why did the experiment produce a different result?","A different result, why did the experiment produce?",question
+17,"Where should we meet after the guest lecture?","After the guest lecture, where meet should we?",question
+18,"If the library closes early, we can study in the residence hall.","If early the library closes, in the residence hall study we can.",conditional
+19,"Although the quiz was difficult, most students completed it.","Difficult though the quiz was, complete it most students did.",contrast
+20,"Because the server was unavailable, the class submitted its work later.","Unavailable the server was; therefore, later its work the class submitted.",causal

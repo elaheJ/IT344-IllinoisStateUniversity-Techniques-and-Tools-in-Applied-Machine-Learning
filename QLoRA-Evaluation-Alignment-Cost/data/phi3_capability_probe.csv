@@ -1,0 +1,41 @@
+id,prompt,check_type,expected,category
+1,What is 17 times 4?,numeric,68,arithmetic
+2,What is 156 minus 89?,numeric,67,arithmetic
+3,"If a box holds 12 pencils, how many pencils are in 7 boxes?",numeric,84,arithmetic
+4,What is 25 percent of 240?,numeric,60,arithmetic
+5,What is 144 divided by 12?,numeric,12,arithmetic
+6,Sarah has 45 apples and gives away 18. How many does she have left?,numeric,27,arithmetic
+7,What is 9 squared?,numeric,81,arithmetic
+8,A train travels 60 miles in one hour. How far does it travel in 3 hours?,numeric,180,arithmetic
+9,What is the sum of 234 and 566?,numeric,800,arithmetic
+10,How many minutes are there in 3 hours?,numeric,180,arithmetic
+11,What is the capital of Australia?,keyword,canberra,factual
+12,Which planet is known as the Red Planet?,keyword,mars,factual
+13,Who wrote the play Romeo and Juliet?,keyword,shakespeare,factual
+14,What is the chemical symbol for gold?,keyword,au,factual
+15,What is the largest ocean on Earth?,keyword,pacific,factual
+16,In which year did the Second World War end?,keyword,1945,factual
+17,What is the freezing point of water in degrees Celsius?,keyword,0|zero,factual
+18,Which gas do plants absorb from the air for photosynthesis?,keyword,carbon dioxide,factual
+19,What is the capital of Japan?,keyword,tokyo,factual
+20,What is the tallest mountain on Earth?,keyword,everest,factual
+21,Which element has the chemical symbol O?,keyword,oxygen,factual
+22,What is the largest planet in our solar system?,keyword,jupiter,factual
+23,Reply with exactly three words.,word_count,3,format
+24,Reply with exactly five words.,word_count,5,format
+25,Reply with exactly two words.,word_count,2,format
+26,Respond with only the word YES.,exact,yes,format
+27,Respond with only the word DONE.,exact,done,format
+28,Answer with a single word: what is the opposite of 'up'?,exact,down,format
+29,Answer with a single word: what is the opposite of 'hot'?,exact,cold,format
+30,Reply with exactly four words.,word_count,4,format
+31,Name the three primary colors used in painting.,all_keywords,red;blue;yellow,instruction
+32,List the three states of matter.,all_keywords,solid;liquid;gas,instruction
+33,Name three of the four seasons of the year.,all_keywords,spring;summer;winter,instruction
+34,List the first three positive even numbers.,all_keywords,2;4;6,instruction
+35,What are the three primary colors of light?,all_keywords,red;green;blue,instruction
+36,Name the three largest oceans on Earth.,all_keywords,pacific;atlantic;indian,instruction
+37,"If today is Monday, what day will it be in three days?",keyword,thursday,reasoning
+38,Tom is taller than Sam. Sam is taller than Joe. Who is the tallest?,keyword,tom,reasoning
+39,"If all roses are flowers, and this object is a rose, is it a flower?",keyword,yes|it is a flower,reasoning
+40,Which is heavier: one kilogram of feathers or one kilogram of stone?,keyword,same|equal|neither|weigh the same,reasoning
