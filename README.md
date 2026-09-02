@@ -12,7 +12,7 @@ Google Colab on a T4 GPU runtime.
 
 | # | Topic | Description | Notebooks |
 | :-- | :-- | :-- | :-- |
-| 01 | [QLoRA, Evaluation, and the Cost of Alignment](QLoRA-Evaluation-Alignment-Cost/) | Fine-tune Phi-3 Mini on a style-transfer task with QLoRA, measure whether the fine-tune actually beat prompting, then measure what the fine-tune cost the model everywhere else. Runs end to end on a free Colab T4. | [1. Fine-Tuning](QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-DanielGodoyYoda-Chapter0.ipynb) · [2. Evaluation](QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-QLoRA-Yoda-Evaluation.ipynb) · [3. Alignment Tax](QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-AlignmentTax-QLoRA-Yoda.ipynb) |
+| 01 | [QLoRA, Evaluation, the Cost of Alignment, and DPO](QLoRA-Evaluation-Alignment-Cost/) | Fine-tune Phi-3 Mini on a style-transfer task with QLoRA, compare it with prompting, measure the cost of alignment, then use DPO to remove an unwanted learned habit while checking what else changed. Runs end to end on a free Colab T4. | [1. Fine-Tuning](QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-DanielGodoyYoda-Chapter0.ipynb) · [2. Evaluation](QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-QLoRA-Yoda-Evaluation.ipynb) · [3. Alignment Tax](QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-AlignmentTax-QLoRA-Yoda.ipynb) · [4. DPO](QLoRA-Evaluation-Alignment-Cost/notebooks/344-FA26-DPO-Yoda-Preferences.ipynb) |
 
 <!--
 To add the next activity, copy the row above, increment the number, and point the links
@@ -28,9 +28,10 @@ at the new topic folder. Keep one topic per folder.
 3. Upload the CSV files from the topic's `data/` folder when the notebook asks for them.
 4. Run the cells in order. Cells marked **Attention 344** are the ones edited for this course.
 
-Notebooks are committed **with their outputs intact** so you can see the expected results
-before running anything. Your own numbers will differ, since generation and training are
-not fully deterministic across runs.
+Reference-run notebooks are committed **with their outputs intact** where available so you
+can inspect expected results before running anything. The DPO notebook is intentionally
+distributed without outputs because it starts from each student's adapter. Your own numbers
+will differ, since generation and training are not fully deterministic across runs.
 
 ---
 
@@ -39,7 +40,7 @@ not fully deterministic across runs.
 ```
 QLoRA-Evaluation-Alignment-Cost/
 ├── README.md          topic overview, learning goals, run order
-├── notebooks/         the three Colab notebooks, in run order
+├── notebooks/         the four Colab notebooks, in run order
 └── data/              held-out test set and capability probe
 ```
 
@@ -54,8 +55,8 @@ dataset is his as well. Full credit for the original material goes to him. Pleas
 the [original repository](https://github.com/dvgodoy/FineTuningLLMs) for its license before
 reusing that notebook outside this course.
 
-The evaluation and alignment-tax notebooks were written for IT 344 and build on top of the
-adapter produced by his notebook.
+The evaluation, alignment-tax, and DPO notebooks were written for IT 344 and build on top
+of the adapter produced by his notebook.
 
 Base model: [`microsoft/Phi-3-mini-4k-instruct`](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct).
 
